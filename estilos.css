@@ -1,0 +1,123 @@
+/*Reseteando los espaciados internos del navegador en todos los elementos de la Pagina*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Generando tamanio por defecto a los h1*/
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/*Generando tamanio por defecto a los h2*/
+h2 {
+    font: bold 14px sans-serif;
+}
+/*Generando la seleccion de varios archivos al mismo tiempo*/
+header,section,footer,aside,nav,article,hgroup {
+    display: block;/*Ubicacion en Bloque de los elementos uno debajo del otro*/
+}
+/*Generando alineacion al Cuerpo de la Pagina Web*/
+body {
+    text-align: center;
+    background-color: grey;
+}
+/*Generando animacion a la Etiqueta auxiliar div*/
+.grupo {
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto ;
+    background-color: white;
+    /*padding: 100px;*/
+}
+/*Generando cambios en la Cabecera de la Pagina Web*/
+.cabecera {
+    background-color:  #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+/*Mejorando el h1 de la Cabecera*/
+.cabecera h1 {
+    text-align: left;
+}
+
+
+/*Generando estilo al Menu Inicial de la Pagina Web*/
+.menu {
+    background-color: rgb(228, 228, 131);
+    padding: 5px 15px;
+    text-align: left;/*Alineacion a la izquierda de los Elementos*/
+}
+/*Modificando la presentacion de los elementos de lista contenidos bajo la clas menu*/
+.menu li {
+    list-style: none;
+    /*border: 1px solid black;* /
+    padding: 5px;
+    font : bold 14px verdana;
+    /*Ubicacion de los componentes en bloques en una Unica Linea*/
+    display :inline-block/*Ubicacion en una sola Linea*/
+}
+/*Mejorando el disenio de los articulos*/
+.articulo  {
+    /*Borde del contenido de los articulos*/
+    /*border: 1px solid black;
+    background-color: yellow;*/
+    margin: 20px;
+    width: 600px;/*Tomando en Cuenta el aside como menu informativo auxiliar*/
+    /*border: 1px solid black;
+    background-color: yellow;*/
+    float: left;
+}
+/*Trabajando en el disenio de los articulos*/
+article {
+    background-color: #fffbb9;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 20px;/*Separacion de los Articulos*/
+}
+/*Mejorando la presentacion de los Footers dentro de cada articulo*/
+article footer {
+    text-align: right;
+    margin-top: 20px
+
+}
+/*Alineando el texto del articulo*/
+article p {
+    text-align: left;
+}
+
+/*Mejorando las etiquetas de tiempo de los Articulos*/
+article time {
+    color: #999;
+
+}
+
+/*Trabajando el estilo del menu auxiliar aside*/
+.menuAux {
+    width: 300px;
+    margin: 20px 0; 
+    /*border: 1px solid black;
+    background-color: yellow;*/
+    float: left;/*Ubicando o haciendo flotar el Elemento*/
+}
+/*Trabajando el contenido de los mensajes del menu auxiliar*/
+.menuAux blockquote {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #fffbb9;
+    /*Logrando la separacion de los mensajes*/
+    margin-bottom: 20px;
+}
+/*Mejorando la presentacion del pie de pagina Footer Final*/
+.piePagFinal {
+    clear: both;
+    padding: 20px;
+    background-color: #2d3436;
+    color: #ffffff;
+}
+/*Mejorando la districucion de la Imagen*/
+img {
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}

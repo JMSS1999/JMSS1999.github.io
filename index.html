@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Mi Perfil estudiantil</title>
+    <meta name="description" content="Esta es mi Primer Pagina Web " />
+    <meta name="author" content="Jhandry Santorum" />
+    <meta name="keyboards" content="Mi primer titulo, mi primer pagina, pagina web" />
+    <!--ESTABLECIMIENTO DE LA ETIQUETA STYLE PARA LOS ESTILOS DE CSS
+    <style>
+        /*Estilos de la Cabecera a traves de identificadores personalizados*/
+        /*#cabecera1 {
+            background-color: red;
+            color: white;
+
+        }
+        #cabecera2 {
+            background-color: green;
+            color: white;
+        }*/
+
+
+        /* Estilos en la Cabecera de la Pagina*/
+        /*header {
+            background-color: black;
+            color: white;
+        }*/
+        /*Estilos de todos los Footers de la Pagina*/
+        /*footer {
+            background-color: green;
+        }*/
+        /*ESTILOS GENERALES DE CLASES EN CSS*/
+        /*.general {
+            background-color: green ;
+        }*/
+        /*ESTILO UNIVERSAL CSS*/
+        /** {
+            background-color: yellow;
+        }*/
+        /*Mejora de estilos a traves de atributos*/
+        /*blockquote[cite] {
+            background-color: red;
+        }*/
+    </style>-->
+    <!--HACIENDO REFERENCIA A OTRO ARCHIVO LINK-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="grupo">
+        <header class="cabecera">
+            <h1>Mi Perfil estudiantil</h1>
+        </header>
+        <nav class="menu">
+            <ul><!--LISTA DESORDENADA DE ELEMENTOS-->
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <!--TRABAJANDO CON EL CONTENIDO DE LOS ARTICULOS-->
+        <section class="articulo">
+            <!--ENCABEZADO DEL PRIMER ARTICULO-->
+            <article>
+                <hgroup><!--GRUPO DE ENCABEZADO DE ETIQUETAS-->
+                    <h1> Universidad Nacional de Loja</h1>
+                    <h2> Carrera de Computación</h2>
+                </hgroup>
+                <time datetime=" 08-03-2021">Jhandry MarcelSantorum Solano</time><!--Etiqueta de Presentacion del Tiempo-->
+                <img src="imagenes/imagen.jpg" /><!--Ubicacion de la Imagen-->
+                <p>Estudiante de la Carrera de Computación de la Universidad Nacional de Loja desde el 18 de Abril, actualmente se encuentra en el 7mo Ciclo del 2018
+                    <br></br>
+                    <small>Aficionado al futbol y a la Programación<cite></cite>
+                </p>
+                <footer>
+                    <p>Comentarios(0)</p>
+                </footer>
+                <!--HACIENDO REFERENCIA A OTRA PAGINA WEB-->
+                <address><!--MEJORANDO LA SIMBOLOGIA DE LA DIRECCION WEB-->
+                    <a href="https://www.facebook.com/jandry.santorum">Visita su perfil de Facebook</a>
+                </address>
+            </article>
+            <!--ENCABEZADO DEL SEGUNDO ARTICULO-->
+            <article>
+                <hgroup>
+                    <h1> Proyectos Trabajados en Github</h1>
+                    <h2> Programación</h2>
+                </hgroup>
+                <time datetime=" 08-03-2021">Publicados desde 10-01-2019</time>
+                <ol>
+                    Ejercicio-Inicial-Node
+                </ol>
+                <ol>
+                    Blog-Deportivo
+                </ol>
+                <ol>
+                    Sistema de Venta Online
+                </ol>
+                <ol>
+                    Agenda-Empresarial--Models
+                </ol>
+                <p>
+                </p>
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+            </article>
+        </section>
+        <!--Codificacion del menu auxiliar desplegable-->
+        <aside class="menuAux">
+            <blockquote cite="http://faztweb.com">
+                <img src="imagenes/java.jpg" /><!--Ubicacion de la Imagen-->
+            </blockquote>
+            <blockquote cite="http://faztweb.com">
+                <img src="imagenes/python.jpg" /><!--Ubicacion de la Imagen-->
+            </blockquote>
+            <blockquote cite="http://faztweb.com">
+                <img src="imagenes/matlab.jpg" /><!--Ubicacion de la Imagen-->
+            </blockquote>
+            <blockquote cite="http://faztweb.com">
+                <img src="imagenes/javascript.jpg" /><!--Ubicacion de la Imagen-->
+            </blockquote>
+        </aside>
+        <!--PARTE FINAL DE LA PAGINA CORRESPONDIENTE A DERECHOS DE AUTOR-->
+        <footer class="piePagFinal">
+            Cuarteto Dinámico Derechos Reservados @2022
+        </footer>
+    </div>
+</body>
+</html>
